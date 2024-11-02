@@ -211,5 +211,56 @@ div.title1 {
 }
 
 
+
+
+/* Container for the images */
+.image-container {
+  display: flex;
+  gap: 20px; /* Adjust the space between images */
+  justify-content: center;
+  background-color: #B72F1D; /* Background color for the section */
+  padding: 20px;
+}
+
+/* Style for each image */
+.image-container img {
+  width: auto;
+  height: 468px;
+  object-fit: cover; /* Ensures image fills the set height without distortion */
+  border-radius: 0px; /* Set border-radius if needed */
+  box-shadow: none; /* Remove any shadow if unwanted */
+}
+
+/* Text styles below the images */
+.caption-text {
+  font-family: "OpenSans-Lightitalic";
+  font-style: italic;
+  font: weight 16px; ;
+  font-size: 14px; 
+  text-align:left; 
+  line-height: 20px;
+  margin-left: 40px;
+  width: 66.6%;
+  margin-bottom: 17px; 
+  padding-bottom: 10px; 
+  margin-top: 50px; 
+  margin-bottom: 17px; 
+  padding-bottom: 10px; 
+  position: relative;
+}
+
   
-  
+div.title2 {
+  font-family: "OpenSans-Lightitalic";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 72px; 
+  text-align:left; 
+  line-height: 80px;
+  margin-left: 40px;
+  width: fit-content;
+  margin-top: 50px; 
+  margin-bottom: 17px; 
+  padding-bottom: 10px; 
+  position: relative;
+}
