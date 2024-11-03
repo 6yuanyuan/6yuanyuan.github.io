@@ -264,3 +264,152 @@ div.title2 {
   padding-bottom: 10px; 
   position: relative;
 }
+
+/* 父容器 */
+.image-overlay-container {
+  position: relative;
+  text-align: center;
+  height: 140vh;
+}
+
+/* 第一张图（背景图） */
+div.part3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1; /* 确保背景图在下面 */
+}
+
+/* 第二张图（透明覆盖图） */
+div.form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/line.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2; /* 确保透明图在背景图上方 */
+  opacity: 0.8; /* 调整透明度 */
+}
+
+/* 文本叠加样式 */
+.text-overlay {
+  position: absolute;
+  top: 50%; /* 控制垂直位置 */
+  left: 50%; /* 控制水平位置 */
+  transform: translate(-50%, -50%); /* 居中对齐 */
+  color: #ECE9D0; /* 文本颜色 */
+  z-index: 3; /* 确保文本在最上层 */
+  text-align: center;
+  width: 80%; /* 根据需要调整文本容器宽度 */
+}
+
+/* 标题和描述文本样式 */
+.text-overlay h1 {
+  font-size: 2em; /* 根据需要调整标题字体大小 */
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 1em; /* 根据需要调整描述文本字体大小 */
+  line-height: 1.5;
+}
+
+
+/* 父容器 */
+.image-overlay-container {
+  position: relative;
+  text-align: center;
+  height: 140vh;
+}
+
+/* 第一张图（背景图） */
+div.view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/view.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1; /* 确保背景图在下面 */
+}
+
+/* 第二张图（透明覆盖图） */
+div.form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/line.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2; /* 确保透明图在背景图上方 */
+  opacity: 0.8; /* 调整透明度 */
+}
+/* 文本叠加样式 */
+.text-overlay {
+  position: absolute;
+  top: 50%; /* 控制垂直位置 */
+  left: 25%; /* 控制水平位置 */
+  transform: translate(-50%, -50%); /* 居中对齐 */
+  color: #ECE9D0; /* 文本颜色 */
+  z-index: 3; /* 确保文本在最上层 */
+  text-align: left;
+  width: 20%; /* 根据需要调整文本容器宽度 */
+  font-family: "OpenSans-Lightitalic";
+  font-style: italic;
+  font: weight 16px; ;
+  font-size: 14px; 
+  text-align:left; 
+  line-height: 20px;
+  margin-left: -85px;
+  margin-bottom: 17px; 
+  padding-bottom: 10px; 
+  margin-top: 50px; 
+  margin-bottom: 17px; 
+  padding-bottom: 10px; 
+  position: relative;
+}
+
+/* 标题和描述文本样式 */
+.text-overlay h1 {
+  font-size: 2em; /* 根据需要调整标题字体大小 */
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 1em; /* 根据需要调整描述文本字体大小 */
+  line-height: 1.5;
+}
+
+.caption-text {
+  font-family: "OpenSans-Lightitalic";
+  font-style: italic;
+  font: weight 16px; ;
+  font-size: 14px; 
+  text-align:left; 
+  line-height: 20px;
+  margin-left: 40px;
+  width: 66.6%;
+  margin-bottom: 17px; 
+  padding-bottom: 10px; 
+  margin-top: 50px; 
+  margin-bottom: 17px; 
+  padding-bottom: 10px; 
+  position: relative;
+}
+
